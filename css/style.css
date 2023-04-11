@@ -1,0 +1,39 @@
+html {
+    font-family: lato, sans-serif;
+}
+
+.profilePic {
+    float:left; height:80px; margin:0px; padding-right: 8px;
+}
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+.flex-container {
+    display: flex;
+    height: 400px;
+    align-content: center;
+}
+
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 80%; /* Set full-width to expand the whole page */
+}
+
+.col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+}
+
+div {
+    border: solid;
+}
+
+.col {
+    background-color: lightgreen;
+}
+
