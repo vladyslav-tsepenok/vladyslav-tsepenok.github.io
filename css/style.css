@@ -37,3 +37,16 @@ div {
     background-color: lightgreen;
 }
 
+.web-res-list {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.sensors-list {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.main-header {
+    padding-left: 12px;
+}
