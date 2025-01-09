@@ -3,50 +3,39 @@ html {
 }
 
 .profilePic {
-    float:left; height:80px; margin:0px; padding-right: 8px;
+    margin: 0;
+    padding-right: 8px;
+    width: 250px;
+    height: auto;
 }
 
 .row-eq-height {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-
-.flex-container {
-    display: flex;
-    height: 400px;
-    align-content: center;
+.container-left {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.container-right {
+    flex: 3;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-.col-container {
-    display: table; /* Make the container element behave like a table */
-    width: 80%; /* Set full-width to expand the whole page */
+.container-left {
+    background-color: #f0f0f0;
 }
 
-.col {
-    display: table-cell; /* Make elements inside the container behave like table cells */
+.container-right {
+    background-color: #e9ecef;
 }
 
 div {
     border: solid;
-}
-
-.col {
-    background-color: lightgreen;
-}
-
-.web-res-list {
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-.sensors-list {
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
-.main-header {
-    padding-left: 12px;
 }
