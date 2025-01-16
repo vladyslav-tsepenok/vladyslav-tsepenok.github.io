@@ -46,6 +46,7 @@ div {
 
 .main-header {
     padding: 0 4rem;
+    padding-top: 1rem;
 }
 
 .sensors-list {
