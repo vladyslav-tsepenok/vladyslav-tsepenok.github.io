@@ -39,3 +39,15 @@ html {
 div {
     border: solid;
 }
+
+.web-res-list {
+    padding: 2rem 4rem;
+}
+
+.main-header {
+    padding: 0 4rem;
+}
+
+.sensors-list {
+    padding: 0 4rem;
+}
